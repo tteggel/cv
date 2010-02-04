@@ -1,0 +1,22 @@
+body{font-name:"Verdana";padding:20px 20px 20px 20px;}
+
+/*block*/
+p,blockquote{margin:5px 0px 5px 0px;clear:both;}
+h1{font-weight:bold;font-size:200%;float:left;margin-bottom:20px;}
+h2{font-weight:bold;font-size:150%;padding-top:20px}
+h3{font-weight:bold;font-size:125%;float:left;margin-right:20px;}
+h4{font-weight:bold;font-size:113%}
+ul{margin:0px 0px 0px 5px;}
+blockquote{font-size:125%;font-style:italic;margin-top:7px;}
+
+/*structural overrides*/
+ul li{margin-bottom:15px;padding-bottom:5px;border-bottom:dashed 1px #ccc;}
+ul li ul li{list-style: disc outside none;margin:5px 0px 0px 20px;border-bottom:none;}
+ul p{margin:0;}
+
+/*classes*/
+p.when,blockquote{clear:right;font-style:italic;text-align:right;}
+
+/*inline*/
+em{font-style:italic;}
+strong{font-weight:bold;}
